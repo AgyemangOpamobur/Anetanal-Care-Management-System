@@ -1,0 +1,54 @@
+body{
+  /*background-color: #f0f0f0;*/
+  background-color: #4682b4;
+}
+#page-wrap{
+  display: table;
+  width: 100%;
+  border: 1px solid #999;
+  border-radius: 10px;
+  border-spacing: 10px;
+  margin-left: auto;
+  background-color: #fff;
+  box-shadow: 6px 6px 6px #999;
+}
+#page-wrap div{
+  display: table-cell;
+  width: 33.33%;
+  padding-left: 2%;
+  /*padding-right: 2%;*/
+  border: 0px solid #999;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #fff, #ddd);
+  box-shadow: inset 0 0 5px #999;
+  font-size: 1.5vw;
+  word-wrap: break-word;
+  color: #666;
+}
+@media screen and (max-width: 800px){
+  #page-wrap div{
+    font-size: 2.0vw;
+  }
+}
+@media screen and (max-width: 480px){
+  #page-wrap div{
+    font-size: 2.5vw;
+  }
+}
+#h1{
+  color: red;
+  float: inherit;
+  font-size: 2.3vw;
+}
+
+#myBar{
+    width: 30%;
+    height: 30px;
+    background-color: #4caf50;
+    line-height: 30px;
+    color: white;
+  }
+  #myProgress{
+    width: 30%;
+    background-color: grey;
+  }
